@@ -1,0 +1,141 @@
+.banner {
+    position: relative;
+    top: 70px;
+}
+
+#photos:hover .text{
+    visibility: visible;
+}
+
+.banner:hover {
+    opacity: 0.6;
+}
+
+#photos .text {
+    position: relative;
+    top: -150px;
+    color: white;
+    visibility: hidden;
+}
+
+.avatar {
+    position: relative;
+    top: -70px;
+    z-index: 99;
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+#av .btn {
+    background-color: #fff !important;
+    border: 1px solid #38ADAE !important;
+    color: #38ADAE;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+#av .btn:hover {
+    background-color: #38ADAE !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+.form input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #CD295A;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    color: #CD295A;
+    outline: none;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+
+.form input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #CD295A;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    color: #CD295A;
+    outline: none;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 0%;
+}
+
+.form input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #CD295A;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    color: #CD295A;
+    outline: none;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+
+.form input[type="tel"]{
+    border: none;
+    border-bottom: 1px solid #38ADAE;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    color: #38ADAE;
+    outline: none;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+
+#optional{
+    border: none;
+    border-bottom: 1px solid #38ADAE;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    color: #38ADAE;
+    outline: none;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+
+.form .fa {
+    color: #38ADAE;
+    font-size: 20px;
+    position: relative;
+    left: -20px;
+    top: 5px;
+}
+
+.form .fa:hover {
+    opacity: 0.6;
+}
+
+.create { 
+    background-color: #fff !important;
+    border: 1px solid #38ADAE !important;
+    color: #38ADAE;
+    margin-top: 5% !important;
+    margin-bottom: 10% !important;
+}
+
+.create:hover {
+    background-color: #38ADAE !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+#profile h4, #profile h1 {
+    color: #38ADAE;
+    font-family: "LTC bodoni 175";
+}
+
+section {
+    position: relative;
+    
+}

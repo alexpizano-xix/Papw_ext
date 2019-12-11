@@ -1,0 +1,370 @@
+.navbar{
+    background-image: -webkit-linear-gradient(left, #38ADAE, #CD295A);
+    padding: 10px;
+    font-family: "LTC bodoni 175";
+}
+
+
+.navbar .navbar-brand {
+    font-size: 32px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    margin: 0 40px 0 0; 
+    font-style: italic;
+}    
+    
+.navbar li a, .navbar .navbar-brand {
+    color: #fff;
+}
+
+.icon-bar
+{
+   background-color: #fff;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    opacity: 0.6;
+    background-color: transparent!important;
+}
+
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: transparent!important;
+    opacity: 0.6;
+}
+
+.dropdown-menu li a {
+    color: #CD295A !important;
+    background-color: inherit!important;
+}
+
+.dropdown-menu li a:hover {
+    background-color: red !important;
+    color: black!important;
+}
+     
+.Login {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.Login:hover {
+    opacity: 0.6;
+}
+
+.Cart {
+    font-size: 20px;
+    color: white;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+
+.Cart:hover {
+    opacity: 0.6;
+}
+
+#Show input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    position: relative;
+    left: 7%;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.RM {
+    position: relative;
+    left: 27%;
+}
+ 
+.New {
+    position: relative;
+    left: 40%;
+}
+
+#Show button {
+    background-color: #38ADAE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    left: 7%;
+}
+
+#Show button:hover {
+    opacity: 0.8;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 50px;
+    left: 50%;
+}
+
+#Show .modal-content {
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    margin: 5% auto 15% auto;
+    border: 1px solid #fff;
+    width: 50%;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 25%;
+}
+
+#ShowCart .modal-content {
+    background-color: #38ADAE;
+    opacity: 0.8;
+    width: 50%;
+    position: absolute;
+    left: 25%;    
+}
+
+#NewProduct .modal-content {
+    background-color: #38ADAE;
+    opacity: 0.8;
+    width: 50%;
+    position: absolute;
+    left: 25%;    
+}
+
+#Show .close {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: black;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#ShowCart .close {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: black;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#NewProduct .close {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: black;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.modal h1 {
+    position: relative;
+    left: 17%;
+    color: white;
+    margin: 70px;
+    font-family: "LTC bodoni 175";
+    font-size: 52px;
+    font-style: italic;
+}
+
+#ShowCart h1 {
+    position: relative;
+    left: 17%;
+    color: black;
+    margin: 70px;
+    font-family: "LTC bodoni 175";
+    font-size: 52px;
+    font-style: italic;
+}
+
+#NewProduct h1 {
+    position: relative;
+    left: 17%;
+    color: black;
+    margin: 70px;
+    font-family: "LTC bodoni 175";
+    font-size: 52px;
+    font-style: italic;
+}
+
+#myCarousel {
+    position: relative;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner .newcarousel img {
+    width: 100%;
+    max-height: 900px;
+}
+
+.carousel-caption h1 {
+    font-family: "LTC bodoni 175";
+    font-size: 40px;
+}
+
+.panel {
+    border: 2px solid #38ADAE !important;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-body {
+    background-color: #fff !important;
+    font-family: "LTC bodoni 175"; 
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.btn {
+    background-color: #CD295A;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #CD295A !important;
+    border: 1px solid #CD295A;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #38ADAE;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #38ADAE;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #CD295A;
+    opacity: 0.6;
+    color: white;
+}
+
+section {
+    margin-top: 8%;
+}
+
+section h1 {
+    color: #CD295A;
+    font-family: "LTC bodoni 175";
+}
+
+#info h1{
+    color: #38ADAE;
+    font-size: 20px;
+}
+
+#info h2{
+    color: #CD295A;
+    font-size: 17px;
+}
+
+.checked {
+    color: #CD295A;
+}
+
+#comment span:hover ~ span:before{
+    color: #CD295A; 
+}
+
+#comment span:hover{
+    color: #CD295A; 
+}
+
+#info h4 {
+    color: #CD295A;
+    font-family: "LTC bodoni 175";
+}
+
+#comment {
+    border: 2px solid #38ADAE;
+}
+
+#bCDesign{
+    display: none;
+}
+
+#bPhotography{
+    display: none;
+}
+
+#bM3D{
+    display: none;
+}
+
+#bViewed{
+    display: none;
+}
+
+#bRanked{
+    display: none;
+}
+
+.messages{
+    position: relative;
+    background: rgba(14, 95, 95, 0.3);
+    width: 800px;
+    height: 650px;
+    margin-bottom: 2%;
+    overflow: scroll !important;
+    overflow: auto !important;
+    overflow-x: auto;
+}
